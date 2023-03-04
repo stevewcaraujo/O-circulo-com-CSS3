@@ -1,0 +1,134 @@
+@charset "UTF-8";
+body
+{
+background-image: linear-gradient(to right, rgb(96, 238, 96) 50%, yellow, transparent);
+}
+header
+{
+    background-color: rgb(13, 166, 13);
+    color: #fff;
+    margin: -20px -5px 0px -5px;
+    padding: 10px;
+}
+header h1
+{
+
+    font: normal bold 35px helvetica;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.521)
+
+    
+}
+header p
+{
+    font: italic bold 16px helvetica;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.521)
+}
+main
+{
+    background-color: #fff;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.521);
+}
+main h1, h2
+{
+    background-image:linear-gradient(to right, blue, transparent);
+    border-radius: 10px;
+    text-align: center;
+}
+.x1
+{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 100%;
+}
+.x2
+{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.x3
+{
+    background-color: rgb(255, 247, 0);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.x4
+{
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.x5
+{
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 50px solid blue;
+    border-radius: 100%;
+
+}
+.x6
+{
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    border-top-right-radius: 100px;border-top-left-radius: 100px;
+    border-left: 50px solid blue;
+    border-right: 50px solid blue;
+    border-top: 50px solid blue;   
+}
+.x7
+{
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    border-top-right-radius: 100px;border-top-left-radius: 100px;
+    border-left: 50px solid blue;
+    border-right: 50px solid blue;
+    border-top: 50px solid blue; 
+    transform: rotate(180deg);  
+}
+    
+
+
+footer
+{
+background-color: green;
+color: #fff;
+text-align: center;
+font: normal bold 16px helvetica;
+margin-top: 20px;
+padding: 5px;
+}
+.autor:hover
+{
+    background-color: rgb(105, 241, 105);
+    color:rgb(7, 65, 7);
+    border-radius: 5px;
+    font: italic bold 16px helvetica;
+    padding: 5px;
+
+}
