@@ -41,6 +41,18 @@ main h1, h2
     border-radius: 10px;
     text-align: center;
 }
+main p
+{
+text-align: justify;
+text-indent: 30px;
+}
+div.x0
+{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
 .x1
 {
     background-color: blue;
@@ -48,6 +60,17 @@ main h1, h2
     height: 100px;
     margin: auto;
     border-radius: 100%;
+}
+.x8
+{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 .x2
 {
