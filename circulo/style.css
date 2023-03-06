@@ -148,6 +148,13 @@ font: normal bold 16px helvetica;
 margin-top: 20px;
 padding: 5px;
 }
+footer a
+{
+    color: yellow;
+    text-decoration: none;
+    
+
+}
 .autor:hover
 {
     background-color: rgb(105, 241, 105);
