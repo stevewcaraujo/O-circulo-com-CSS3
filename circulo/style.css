@@ -164,3 +164,7 @@ footer a
     padding: 5px;
 
 }
+.autor::after
+{
+    content: '\1F517';
+}
