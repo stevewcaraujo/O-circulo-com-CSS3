@@ -117,7 +117,8 @@ div.x0
     width: 100px;
     height: 50px;
     margin: auto;
-    border-top-right-radius: 100px;border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
     border-left: 50px solid blue;
     border-right: 50px solid blue;
     border-top: 50px solid blue;   
