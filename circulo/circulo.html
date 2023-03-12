@@ -14,20 +14,23 @@
         <p>Aqui faremos algumas singelas apresentações com o círculo!</p>
     </header>
     <main>
-        <h1>Apresentações com o Círculo</h1>
+        <h1>Apresentações de algumas habilidades do CSS3 utilizando o Círculo</h1>
         <h2>O círculo centralizado</h2>
-        <p>Em primeiro lugar para obtermos um círculo vamos criar um quadrado com a tag &lt;div&gt; e aqui escolhemos atribuir uma pseudo-class intitulada por x0. Após isso basta estilizar a div com cor(background), largura(width) e altura (height), neste caso cor, largura e altura com escolhas a critério de cada um. Importante ressaltar que este quadrado, ou box, para ser centralizado deve-se inserir um margin: auto; em Style. Após fazermos tudo isso com CSS3 o nosso quadrado ficou assim:</p>
-        <div class="x0"></div>
-        <p>Para transformá-lo em um círculo temos duas opções:
-            <ol>
-                <li>Basta acrescentar em style um border-radius: 100%;</li>
-                <p>Observe que aqui criamos uma outra div com a pseudo class x1. Para ver os detalhes basta acompanhar os códigos na página de Style. Daí obtemos o resultado desejado.</p>
-                <div class="x1"></div>
-                <li>A outra maneira é criando as border-radiuns em cada canto do quadrado. Para melhor compreender veja e acompanhe os códigos na página de estilo.</li>
-                <div class="x8"></div>
-            </ol> 
-        </p>
-        
+        <p>Em primeiro lugar para obtermos um círculo vamos criar um quadrado com a tag &lt;div&gt; e aqui escolhemos atribuir uma pseudo-class intitulada por x0. Daí no CSS utilizaremos um background-color de cor blue e dando largura ao quadrado com width de 100px e altura comheight de 100px, já a margin auto será para centralizar o quadrado horizontalemnte, veja:
+            <div class="x0"></div>
+        <p>Agora para tornar este quadrado em um circulo basta utilizar o border-radius de 100%, pois assim faremos com que cada um dos cantos do quadrado fique arredondado tornando-o um círculo. Veja:</p>
+        <div class="x1"></div>
+        <p>A outra maneira de tornar o quadrado um circulo é criando as border-radiuns em cada canto do quadrado. Ou seja, de posse do quadrado acima criado vamos aplicar um:
+            <ul>
+                <li>border-top-left-radius: 50px;</li>
+                <li>border-top-right-radius: 50px;</li>
+                <li>border-bottom-left-radius: 50px;</li>
+                <li>border-bottom-right-radius: 50px;</li>              
+            </ul>
+            <p>A medida de cada borda ser 50px ficou determinada pelo fato da dimensão do lado do quadrado ser de 100px.Após a aplicação destes parametros temos:</p>
+            <div class="x8"></div>
+            
+            <p>Para melhor compreender veja e acompanhe os códigos na página de estilo.</p>
         <h2>Um alvo com 3 setores</h2>
         <p>Agora vamos criar um alvo circular com três setores. Para tal basta inserir 3 divs ou caixas com pseudo classes diferentes. E para estilizar em forma de círculos procedemos como anteriormente. No entanto iremos usar cores e dimensões distintas para cada caixa. Vejam os códigos em style. Após isso veja como fica nosso alvo.</p>
         <div class="x2">
@@ -37,17 +40,32 @@
         </div>
         <h2>Um anel</h2>
          <p>
-             Para criarmos um anel iniciamos com uma caixa quadrada que iremos usar inicialmente uma cor distinta da desejada para o anel, por exemplo    background-color: black;. Seguindo formaremos a caixa com dimensões   width: 100px;, height: 100px; e a centralizamos com margin: auto;. Para finalizar inserimos as bordas sólidas com a cor e largura que desejamos para o anel, por exemplo:
-                 border: 50px solid blue;
-                 border-radius: 100%; e trocamos a cor black para transparent do background inicial.
+             Para criarmos um anel iniciamos com uma caixa quadrada que iremos usar inicialmente uma cor distinta da desejada para o anel, por exemplo    background-color sendo black. Seguindo formaremos a caixa com dimensões de largura com width de 100px, altura com height de 100px e a centralizamos com margin de parametro auto. Para finalizar inserimos as bordas sólidas com a cor e largura que desejamos para o anel, por exemplo:
+
+                 <ul>
+                     <li>border: 50px solid blue;</li>
+                </ul>
+            <P>Isso para obtermos um anel com espessura de 50px. E por fim aplicamos o arredondadmento do anel quadrado com:</P>
+                <ul>
+                     <li>border-radius: 100%;</li>
+                 </ul> e trocamos a cor black para transparent do background inicial. Assim obtemos o anel desejado, veja:
          </p>
-        <p></p>
-        
+                
         <div class="x5"></div>
         <h2>Um semi anel</h2>
-        <p>Para montar o semi-anel circular optaremos por usar uma cor background-color: black; para a caixa e por fim a mudaremos para transparent, isso para que possamos inserir as bordas. Assim começa-se com um caixa retangular black onde optamos por dimensões: width: 100px; height: 50px; e a centralizamos com margin: auto; e usando border-top-right-radius: 100px;
-        , border-top-left-radius: 100px; deixar o retângulo como um semi-disco. Agora  colocaremos as bordas sólidas da cor que desejamos para o anel com border-left: 50px solid blue;, border-right: 50px solid blue; e
-        border-top: 50px solid blue;. Para finalizar basta trocar o background de black para transparent.  </p>
+        <p>Para montar o semi-anel circular optaremos por usar um background-color de cor black, para a caixa e por fim a mudaremos para transparent, isso para que possamos inserir as bordas. Assim começa-se com um caixa retangular black onde optamos por dimensões de largura width de 100px, altura height de 50px e a centralizamos com margin de parametro auto. Obtendo um retângulo. Agora usaremos:
+            <ul>
+                <li>border-top-right-radius de 100px</li>
+                <li>border-top-left-radius de 100px</li>
+            </ul> 
+           <p>Assim o retângulo ficará um semi-disco. Agora  colocaremos as bordas sólidas da cor que desejamos para o anel com:</p> 
+            <ul>
+                <li>border-left: 50px solid blue</li> 
+                <li>border-right: 50px solid blue</li>
+                <li>border-top: 50px solid blue</li>
+            </ul> 
+        <p>
+        Para finalizar basta trocar o background de black para transparent. Veja: </p>
         <div class="x6"></div>
         <h2>Um semi anel rotacionado 180deg</h2>
         <p>Para o semi-anel rotacionado basta acrescentar ao exercício anterior o rotate com 180deg.</p>
