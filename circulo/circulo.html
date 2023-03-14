@@ -10,17 +10,18 @@
 </head>
 <body>
     <header>
-        <h1>Exibindo algumas habilidades do CSS3 com o círculo</h1>
+        <h1>Exibindo algumas habilidades do <abbr title="Cascading Style Sheet, versão 3.">CSS3</abbr> com o círculo</h1>
         <p>Aqui faremos algumas singelas apresentações com o círculo!</p>
     </header>
     <main>
         <h1>Apresentações de algumas habilidades do CSS3 utilizando o Círculo</h1>
+        <p>Antes de fazer qualquer comentário sobre o CSS é importante compreender o significado da sigla CSS que é <strong><em>Cascading Style Sheet</em></strong>, ou Folha de Estilo em Cascatas, quando escrevemos CSS3 estamos dizendo que trata-se da versão 3. É importante frizar que o CSS3 não é uma linguagem de programação e sim uma linguagem de marcação de estilos e sendo assim sua aplicação é utilizada na estilização de componentes escritos em linguagens de marcação. De uma forma bem simples após escrever, por exemplo, o conteúdo com <abbr title="HyperText Markaup Linguagem, versão 5">HTML5</abbr> utilizamos um marcador de estilos, neste caso o CSS3, para dar: estética, modelo ou elegância ao conteúdo tornando ao usuário uma experiência mais agradável. Trocando em miúdos estética, modelo ou elegância ao conteúdo significa que podemos inserir cor nos mais diversos campos(body, h1, h2, ...,h6, e etc.) estilizar os links, inserir imagens, aúdios, construir formas como: quadrados, retângulos, círculos, espirais e muitas outras formas. Além de muitas formas de efeitos. Não conseguerei mencionar todas as formas de estilos que é possível inserir com está fabulosa ferramenta, mas o fato é que empolgante e atrativo o que é possível fazer com o CSS3. Desta forma, resolvi como <strong>meu primeiro site</strong> apresentar algumas habilidades que aprendi até agora com o CSS3 utilizando a forma do círculo. Então sem mais vamos ao trabalho e espero poder auxiliar outros com a singela exibição aqui exposta.</p>
         <h2>O círculo centralizado</h2>
-        <p>Em primeiro lugar para obtermos um círculo vamos criar um quadrado com a tag &lt;div&gt; e aqui escolhemos atribuir uma pseudo-class intitulada por x0. Daí no CSS utilizaremos um background-color de cor blue e dando largura ao quadrado com width de 100px e altura comheight de 100px, já a margin auto será para centralizar o quadrado horizontalemnte, veja:
+        <p>Em primeiro lugar para obtermos um círculo vamos criar um quadrado com a tag &lt;div&gt; e aqui escolhemos atribuir uma pseudo-class intitulada por x0. Daí no <abbr title="Cascading Style Sheets">CSS</abbr> utilizaremos um background-color de cor blue e dando largura ao quadrado com width de 100px e altura comheight de 100px, já a margin auto será para centralizar o quadrado horizontalemnte, veja:
             <div class="x0"></div>
-        <p>Agora para tornar este quadrado em um circulo basta utilizar o border-radius de 100%, pois assim faremos com que cada um dos cantos do quadrado fique arredondado tornando-o um círculo. Veja:</p>
+        <p>Agora para tornar este quadrado em um círculo basta utilizar o border-radius de 100%, pois assim faremos com que cada um dos cantos do quadrado fique arredondado tornando-o um círculo. Veja:</p>
         <div class="x1"></div>
-        <p>A outra maneira de tornar o quadrado um circulo é criando as border-radiuns em cada canto do quadrado. Ou seja, de posse do quadrado acima criado vamos aplicar um:
+        <p>A outra maneira de tornar o quadrado um círculo é criando as border-radiuns em cada canto do quadrado. Ou seja, de posse do quadrado acima criado vamos aplicar um:
             <ul>
                 <li>border-top-left-radius: 50px;</li>
                 <li>border-top-right-radius: 50px;</li>
@@ -32,7 +33,15 @@
             
             <p>Para melhor compreender veja e acompanhe os códigos na página de estilo.</p>
         <h2>Um alvo com 3 setores</h2>
-        <p>Agora vamos criar um alvo circular com três setores. Para tal basta inserir 3 divs ou caixas com pseudo classes diferentes. E para estilizar em forma de círculos procedemos como anteriormente. No entanto iremos usar cores e dimensões distintas para cada caixa. Vejam os códigos em style. Após isso veja como fica nosso alvo.</p>
+        <p>Agora vamos criar um alvo circular com três setores. Para tal basta inserir 3 divs ou caixas com pseudo classes diferentes. E para estilizar em forma de círculos procedemos como anteriormente. No entanto iremos usar cores e dimensões distintas para cada caixa. Neste item lançamos mão do:</p>
+            <ul>
+                <li>diplay grid com parâmetro grid;</li>
+                <p>Isso para fazer centralizar os círculos, com:</p>
+                <li>align-items com parâmetro center, que alinhará horizontalemnte;</li>
+                <li>justify-content com parâmetro center que alinhará verticalmente;</li>
+            </ul> 
+            <p>
+            Vejam os códigos em style. Após isso veja como fica nosso alvo.</p>
         <div class="x2">
             <div class="x3">
                 <div class="x4"></div>

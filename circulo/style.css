@@ -201,10 +201,7 @@ div.e5
     position: absolute;
     left: 75px;
     rotate: 180deg;
-    top: 200px;
-   
-   
-    
+    top: 200px; 
 }
 div.e6
 {
@@ -216,7 +213,6 @@ div.e6
     position: absolute;
     top: 190px;
     left:75px;   
-
 }
 div.e7
 {
@@ -229,8 +225,6 @@ div.e7
     position: absolute;
     top: 200px;
     left:165px;   
-   
-    
 }
 footer
 {
