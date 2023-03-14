@@ -131,6 +131,106 @@ div.x0
     border-top: 50px solid blue; 
     transform: rotate(180deg);  
 }
+div.e1
+{
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+
+}
+div.e2
+{
+    background-color: transparent;
+    width: 30px;
+    height: 15px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-right: 20px solid blue;
+    border-left: 20px solid blue;
+    border-top: 20px solid blue;
+    position: absolute;
+    left: 165px;
+    top: 165px;
+    
+
+}
+div.e3
+{
+    background-color: transparent;
+    width: 60px;
+    height: 30px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-right: 20px solid blue;
+    border-left: 20px solid blue;
+    border-top: 20px solid blue;
+    rotate: 180deg;
+    position: absolute;
+    left: 135px;
+    top: 200px; 
+    
+}
+div.e4
+{
+    background-color: transparent;
+    width: 120px;
+    height: 60px;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-right: 20px solid blue;
+    border-left: 20px solid blue;
+    border-top: 20px solid blue;
+    position: absolute;
+    left: 135px;
+    top: 120px; 
+    
+}
+div.e5
+{
+    background-color: transparent;
+    width: 180px;
+    height: 90px;
+    border-top-right-radius: 180px;
+    border-top-left-radius: 180px;
+    border-right: 20px solid blue;
+    border-left: 20px solid blue;
+    border-top: 20px solid blue;
+    position: absolute;
+    left: 75px;
+    rotate: 180deg;
+    top: 200px;
+   
+   
+    
+}
+div.e6
+{
+    background-color: blue;
+    width: 20px;
+    height: 10px;
+    border-top-right-radius: 180px;
+    border-top-left-radius: 180px;
+    position: absolute;
+    top: 190px;
+    left:75px;   
+
+}
+div.e7
+{
+    background-color: blue;
+    width: 20px;
+    height: 10px;
+    border-top-right-radius: 180px;
+    border-top-left-radius: 180px;
+    rotate: 180deg;
+    position: absolute;
+    top: 200px;
+    left:165px;   
+   
+    
+}
 footer
 {
 background-color: green;
